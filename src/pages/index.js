@@ -1,15 +1,16 @@
 import React from 'react';
 
 import Layout from '../components/layout';
+import Header from '../components/header';
 import Education from '../components/education';
+
+import './index.css';
 
 const IndexPage = () => (
   <Layout>
-    <div>
-      <h1 style={{ marginBottom: 8 }}>Guanchen Zhang</h1>
-      <h3>Engineer | Data Scientist</h3>
-    </div>
+    <Header />
     <Education />
+    <h3>Experience</h3>
   </Layout>
 )
 
