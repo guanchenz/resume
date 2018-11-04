@@ -26,7 +26,11 @@ b {
 .row-default {
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+}
+.row-align-start {
+    display: flex;
+    flex-direction: row;
 }
 .column-default {
     display: flex;
