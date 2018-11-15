@@ -29,7 +29,7 @@ const Experience = () => (
             {
                 data.allExperienceJson.edges.map((edge, idx) => (
                     <ItemLayout
-                        id={`experience-item-${idx}`}
+                        key={`experience-item-${idx}`}
                         node={edge.node}
                     />
                 ))
