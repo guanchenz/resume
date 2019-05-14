@@ -6,6 +6,7 @@ import Education from '../components/education';
 import Skills from '../components/skills';
 import Experience from '../components/experience';
 import Publications from '../components/publications';
+// import PublicationStats from '../components/publicationStats';
 import Recognition from '../components/recognition';
 import Projects from '../components/projects';
 
@@ -18,8 +19,9 @@ const IndexPage = () => (
       <Education />
       <Skills />
       <Publications />
+      {/* <PublicationStats /> */}
       <Projects />
-      <Recognition />
+      {/* <Recognition /> */}
     </div>
     <Experience />
   </Layout>

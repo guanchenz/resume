@@ -13,38 +13,42 @@ const Publications = () => (
                             publisher
                             year
                             type
+                            link
                         }
                     }
                 }
             }
         `}
         render={data => (
-            <>
-            <h3>Selected Publications</h3>
+            <div class='section'>
+            <h2 class='title'>Selected Publications</h2>
             {
                 data.allPublicationsJson.edges
                     .filter(edge => {
-                        return ['journal', 'thesis'].includes(edge.node.type)
+                        return ['Journal paper', 'Dissertation'].includes(edge.node.type)
                     })
-                    .slice(0,3)
+                    .slice(0, 2)
                     .map((edge, idx) => {
                         return (
                             <div
                                 key={`publication-${idx}`}
                                 style={{
                                     marginBottom: '8px',
+                                    lineHeight: 'normal'
                                 }}
                             >
                                 <div className={'row-space-between'}>
                                     <p style={{ fontSize: 10, color: '#1565c0' }}>{edge.node.publisher}</p>
                                     <p style={{ fontSize: 10, color: '#1565c0' }}>{edge.node.year}</p>
                                 </div>
-                                <p>{edge.node.title}</p>
+                                <a href={edge.node.link}>
+                                    {edge.node.title}
+                                </a>
                             </div>
                         )
                 })
             }
-            </>
+            </div>
         )}
     />
 );

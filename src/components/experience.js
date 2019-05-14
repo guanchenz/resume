@@ -17,6 +17,7 @@ const Experience = () => (
                             tasks {
                                 task
                                 details
+                                hidden
                             }
                         }
                     }
@@ -25,7 +26,7 @@ const Experience = () => (
         `}
         render={data => (
             <>
-            <h3>Work Experience</h3>
+            <h2 class='title'>Work Experience</h2>
             {
                 data.allExperienceJson.edges.map((edge, idx) => (
                     <ItemLayout

@@ -4,7 +4,7 @@ const Recognition = () => {
     return (
         <div>
             <h3>Recognition</h3>
-            <p>Nominated for 2018 SFU convocation medal</p>
+            <p>Nominated for Governor General's Gold Medal for excellence in research, SFU 2018.</p>
         </div>
     );
 };

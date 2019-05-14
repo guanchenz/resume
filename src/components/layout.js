@@ -37,8 +37,8 @@ const Layout = ({ children }) => (
               display: 'grid',
               gridTemplateColumns: '1fr 1.5fr',
               gridTemplateRows: 'auto auto',
-              gridGap: '24px',
-              height: '100%'
+              gridGap: '14px',
+              // height: '100%'
             }}
           >
             <div

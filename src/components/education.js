@@ -14,6 +14,7 @@ const Education = () => (
                             yearStart
                             yearEnd
                             degree
+                            achievement
                             location
                         }
                     }
@@ -21,8 +22,8 @@ const Education = () => (
             }
         `}
         render={data => (
-            <div>
-                <h3>Education</h3>
+            <div class='section'>
+                <h2 class='title'>Education</h2>
                 {
                     data.allEducationJson.edges.map((edge, idx) => (
                             <div
@@ -31,8 +32,9 @@ const Education = () => (
                                 style={{ marginBottom: '8px' }}
                             >
                                 <p style={{ fontSize: 10, color: '#1565c0' }}>{`${edge.node.yearStart} - ${edge.node.yearEnd}`}</p>
-                                <b>{edge.node.school}</b>
-                                <p>{edge.node.degree}</p>
+                                <h4 class='heading'>{edge.node.school}</h4>
+                                <b>{edge.node.degree}</b>
+                                <p>{edge.node.achievement}</p>
                             </div>
                     ))
                 }

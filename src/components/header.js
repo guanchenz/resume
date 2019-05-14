@@ -11,7 +11,7 @@ const HeaderItem = ({ children }) => (
         {children[0]}
         <div style={{ width: '8px' }} />
         {children[1]}
-        <div style={{ width: '8px' }} />
+        <div style={{ width: '8px', lineHeight: 'normal' }} />
     </div>
 );
 
@@ -24,10 +24,19 @@ const Header = () => (
                         node {
                             name
                             title
-                            web
+                            web {
+                                name
+                                link
+                            }
                             email
-                            github
-                            linkedin
+                            github {
+                                name
+                                link
+                            }
+                            linkedin {
+                                name
+                                link
+                            }
                             phone
                         }
                     }
@@ -39,19 +48,21 @@ const Header = () => (
         }}) => (
             <div className={'row-space-between'}>
                 <div className={'column-default'}>
-                    <h2 style={{
+                    <h1 class='margin-bottom-large' style={{
                         marginRight: 12
                     }}>
                         {node.name}
-                    </h2>
-                    <h4>{node.title}</h4>
+                    </h1>
+                    <h4 class='primary profile'>{node.title}</h4>
                 </div>
 
                 <div className={'row-align-start'}>
                     <div className={'column-default'}>
                         <HeaderItem>
                             <Web/>
-                            <p>{node.web}</p>
+                            <a href={node.web.link}>
+                                {node.web.name}
+                            </a>
                         </HeaderItem>
                         <HeaderItem>
                             <Gmail />
@@ -62,7 +73,17 @@ const Header = () => (
                     <div className={'column-default'}>
                         <HeaderItem>
                             <Github />
-                            <p>{node.github}</p>
+                            <a
+                                href={node.github.link}
+                                style={{
+                                    color: 'inherit',
+                                    fontSize: 12,
+                                    fontWeight: 'normal',
+                                    textDecoration: 'none'
+                                }}
+                            >
+                                {node.github.name}
+                            </a>
                         </HeaderItem>
                         <HeaderItem>
                             <Cellphone />
@@ -73,7 +94,17 @@ const Header = () => (
                     <div className={'column-default'}>
                         <HeaderItem>
                             <LinkedIn />
-                            <p>{node.linkedin}</p>
+                            <a
+                                href={node.linkedin.link}
+                                style={{
+                                    color: 'inherit',
+                                    fontSize: 12,
+                                    fontWeight: 'normal',
+                                    textDecoration: 'none'
+                                }}
+                            >
+                                {node.linkedin.name}
+                            </a>
                         </HeaderItem>
                     </div>
                 </div>

@@ -17,8 +17,8 @@ const Skills = () => (
             }
         `}
         render={data => (
-            <div>
-            <h3>Skills</h3>
+            <div class='section'>
+            <h2 class='title'>Skills</h2>
             {
                 data.allSkillsJson.edges.map((edge, idx) => {
                     return (

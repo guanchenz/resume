@@ -3,9 +3,7 @@ import React from 'react';
 
 const ItemLayout = ({node}) => {
     return (
-        <div style={{
-            marginBottom: '24px',
-        }}>
+        <div class='margin-bottom-medium'>
             <div style={{
                 borderStyle: 'solid',
                 borderWidth: '0px 0px 0px 4px',
@@ -17,17 +15,25 @@ const ItemLayout = ({node}) => {
                     <p style={{ fontSize: 10, color: '#1565c0' }}>{node.location}</p>
                 </div>
 
-                <h4 className={'title'}>{node.employer}</h4>
-                <h5 className={'subheading'}>{node.title}</h5>
+                <h4 className={'heading'}>{node.employer}</h4>
+                <h4 className={'subheading'}>{node.title}</h4>
             </div>
 
             <div style={{paddingLeft: '12px'}}>
                 {
-                    node.tasks.map(({task, details}) => {
-                        return (
-                            <p key={task}><b>{`${task}: `}</b>{details}</p>
-                        )
-                    })
+                    node.tasks
+                        .filter(({ hidden }) => !hidden)
+                        .map(({task, details}) => {
+                            if (task) {
+                                return (
+                                    <p key={task}><b>{`${task}: `}</b>{details}</p>
+                                )
+                            } else {
+                                return (
+                                    <p key={task}>{details}</p>
+                                )
+                            }
+                        })
                 }
             </div>
         </div>
