@@ -1,0 +1,28 @@
+[
+    {
+        "date": "Feb - Mar 2019",
+        "location": "Surrey, BC",
+        "employer": "Powertech Labs Inc.",
+        "title": "Software Contractor",
+        "tasks": [
+            {
+                "task": "Software for Powertech Labs Inc.",
+                "details": "Dockerized client's LAMP server and developed new features using C and MySQL."
+            }
+        ],
+        "type": "Contract"
+    },
+    {
+        "date": "May - Jun 2018",
+        "location": "Vancouver, BC",
+        "employer": "SAP Canada Inc.",
+        "title": "Capstone Project",
+        "tasks": [
+            {
+                "task": "Use doc2vec and semi-supervised learning to categorize risks of using web services.",
+                "details": "Topic tagging in legal documents using doc2vec and semi-supervised learning."
+            }
+        ],
+        "type": "Capstone"
+    }
+]

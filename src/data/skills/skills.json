@@ -1,0 +1,56 @@
+[
+    {
+        "category": "Languages",
+        "items": [
+            "Python",
+            "R",
+            "JavaScript (ES6+)",
+            "SQL"
+        ]
+    },
+    {
+        "category": "Data Engineering & Analytics",
+        "items": [
+            "Data pipeline in AWS",
+            "EDA",
+            "statistical, Bayesian & causal inference",
+            "dashboard",
+            "A/B testing"
+        ]
+    },
+    {
+        "category": "Machine Learning",
+        "items": [
+            "Regression",
+            "clustering",
+            "feature engineering",
+            "model selection",
+            "latent models",
+            "NLP",
+            "scikit-learn",
+            "Keras"
+        ]
+    },
+    {
+        "category": "Full-Stack Web Dev",
+        "items": [
+            "NodeJS",
+            "ReactJS",
+            "GraphQL",
+            "AWS",
+            "Serverless",
+            "Docker",
+            "Elasticsearch",
+            "MySQL",
+            "Jira",
+            "Linux"
+        ]
+    },
+    {
+        "category": "Engineering",
+        "items": [
+            "Optimization",
+            "system modeling and simulation"
+        ]
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "date": "Mar 2019 - Present",
+        "location": "Vancouver, BC",
+        "employer": "Elen-Mech Consulting Inc.",
+        "title": "Engineering Consultant",
+        "tasks": [
+            {
+                "task": "",
+                "details": "Software support for engineering projects and product that require both domain expertise and software implementation.",
+                "hidden": true
+            },
+            {
+                "task": "",
+                "details": "Build software for projects and products related to power systems."
+            }
+        ]
+    },
+    {
+        "date": "May 2017 - Feb 2019",
+        "location": "Vancouver, BC",
+        "employer": "Plasmatic Technologies Inc.",
+        "title": "Principal Engineer, Data Science",
+        "tasks": [
+            {
+                "task": "Product development",
+                "details": "Created the Alana Home App (now branded for BC Hydro as HydroHome App) and Dashboard from architecture design, prototypes to production in an agile environment."
+            },
+            {
+                "task": "Data engineering",
+                "details": "Designed and developed, from scratch to production, the Alana Connected-Home Platform that ingests, processes, unifies and stores smart home data from B2B web services using AWS. The platform provides insights for insurance and utility companies.",
+                "hidden": true
+            },
+            {
+                "task": "Data engineering",
+                "details": "Designed and developed data pipeline in AWS to ingest real-time IoT data from B2B web services, process and store data in DynamoDB, Elasticsearch and S3 data lake for app operation, analytics and ML.",
+                "hidden": false
+            },
+            {
+                "task": "Machine learning",
+                "details": "Led the Alana ML Engine for smart-home insights and anomaly detection, from model development and serving backend to web app that consumes the models and visualizes results."
+            },
+            {
+                "task": "Analytics",
+                "details": "Inference of smart home market shares in Europe using network data provided by a local telecom company. App usage analytics.",
+                "hidden": true
+            },
+            {
+                "task": "Analytics",
+                "details": "App usage analysis and report in jupyter notebook."
+            },
+            {
+                "task": "Backend",
+                "details": "Developed Serverless GraphQL APIs for the Alana Connected-Home Platform that supports the Alana Home App and Dashboard. Built an Elasticsearch server for complex queries against DynamoDB tables.",
+                "hidden": true
+            },
+            {
+                "task": "Backend",
+                "details": "Built GraphQL APIs (Serverless and EC2) in NodeJS and Python to serve data and ML models for the apps."
+            },
+            {
+                "task": "Frontend",
+                "details": "Led web and mobile app development from prototyping to production. Used React, GraphQL, Material UI, Storybook and AWS Amplify for development, Jira and Confluence for management."
+            },
+            {
+                "task": "Agile",
+                "details": "As a startup, we worked with engineers and designers in an agile environment for product development. I led frontend and ML works.",
+                "hidden": true
+            }
+        ]
+    },
+    {
+        "date": "Jan 2016 - May 2017",
+        "location": "Surrey, BC",
+        "employer": "Powertech Labs Inc., BC Hydro",
+        "title": "Engineer",
+        "tasks": [
+            {
+                "task": "Analytics",
+                "details": "Usage analysis of the first 400+ EV charging stations in BC. Prepared reports for NRCan, BC Hydro and municipalities."
+            },
+            {
+                "task": "Smart EV charging",
+                "details": "Algorithm design, deployment, hardware setup and testing, and demonstration of smart charging benefit to stakeholders.",
+                "hidden": true
+            },
+            {
+                "task": "Smart EV charging",
+                "details": "Used real-world charging data to develop and deploy algorithms for the first demonstrations of smart charging in BC."
+            },
+            {
+                "task": "Software",
+                "details": "Web app dev for smart EV charging control, automated report for electrical equipment testing, and work order system for internal use.",
+                "hidden": true
+            },
+            {
+                "task": "Software",
+                "details": "Automated reporting of electrical equipment testing.",
+                "hidden": true
+            },
+            {
+                "task": "Project management",
+                "details": "Led survey on charging solutions in Multi-Unit Residential Buildings in BC, from project proposal, survey design to report."
+            },
+            {
+                "task": "R&D",
+                "details": "Developed a method for power flow optimization in commercial buildings. Results were proposed as a new industrial standard and published in IEEE conference."
+            },
+            {
+                "task": "Hardware and testing",
+                "details": "Soldering and assembly of high power equipment sold to international clients. Test EV chargers, BC Hydro switchgears, and smart meters.",
+                "hidden": true
+            }
+        ]
+    },
+    {
+        "date": "Jan 2012 - Dec 2015",
+        "location": "Surrey, BC",
+        "employer": "Product Design and Optimization Lab, SFU",
+        "title": "Research Assistant",
+        "tasks": [
+            {
+                "task": "EV modeling and optimization",
+                "details": "MATLAB models for Toyota Prius and Formula E, and simulation-based optimization for energy efficiency.",
+                "hidden": true
+            },
+            {
+                "task": "Optimization",
+                "details": "Mathematical modelling of Toyota Prius and Formula E cars, and simulation-based optimization of energy efficiency.",
+                "hidden": true
+            },
+            {
+                "task": "Optimization",
+                "details": "Mathematical modeling of Formula E racing cars and designing control for the next-gen EV motors from simulation-based optimization."
+            },
+            {
+                "task": "Data mining",
+                "details": "Inference and forecast of household energy consumption by load types from aggregated smart meter data."
+            }
+        ]
+    },
+    {
+        "date": "Sep - Dec 2012",
+        "location": "North Vancouver, BC",
+        "employer": "Honeywell Inc.",
+        "title": "Mechanical Designer",
+        "tasks": [
+            {
+                "task": "",
+                "details": "Built a tool that measures the straightness of large aluminum beams.",
+                "hidden": true
+            },
+            {
+                "task": "",
+                "details": "Built an embedded data-logging system that streams data to Android tablet."
+            }
+        ]
+    }
+]

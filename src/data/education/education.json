@@ -1,0 +1,18 @@
+[
+    {
+        "school": "University of British Columbia",
+        "yearStart": "Sep 2017",
+        "yearEnd": "Jun 2018",
+        "degree": "Master of Data Science",
+        "achievement": "Averaged 96% in 25 courses",
+        "location": "Vancouver, BC"
+    },
+    {
+        "school": "Simon Fraser University",
+        "yearStart": "Jan 2010",
+        "yearEnd": "Aug 2017",
+        "degree": "M.A.Sc., B.A.Sc., Mechatronic Systems Engineering",
+        "achievement": "Nominated for 2018 Governor General's Gold Medal for excellence in research",
+        "location": "Surrey, BC"
+    }
+]

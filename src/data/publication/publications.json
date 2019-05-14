@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Energy Management Strategies and Evaluation for Plug-in Electric Vehicles - On and Off the Road",
+        "publisher": "M.A.Sc. Dissertation, SFU Summit",
+        "year": "2017",
+        "type": "Dissertation",
+        "link": "http://summit.sfu.ca/item/17517"
+    },
+    {
+        "title": "Real-Time Smart Charging of Electric Vehicles for Demand Charge Reduction at Non-Residential Sites",
+        "publisher": "IEEE Transactions on Smart Grid",
+        "year": "2017",
+        "type": "Journal paper",
+        "link": "https://ieeexplore.ieee.org/document/7807358"
+    },
+    {
+        "title": "Data Mining of Smart Meters for Load Category based Disaggregation of Residential Power Consumption",
+        "publisher": "Sustainable Energy, Grids and Networks",
+        "year": "2017",
+        "type": "Journal paper",
+        "link": "https://www.sciencedirect.com/science/article/pii/S2352467716301278"
+    },
+    {
+        "title": "Metamodeling-based Product Family Design of Plug-in Hybrid Electric Vehciles",
+        "publisher": "International Journal of Sustainable Engineering",
+        "year": "2016",
+        "type": "Journal paper",
+        "link": "https://www.tandfonline.com/doi/full/10.1080/19397038.2016.1250840"
+    },
+    {
+        "title": "Short-Term Load Forecasting of Active and Reactive Powers in Small Scales Using Lasso-Integrated Nonlinear Autoregression Neural Networks",
+        "publisher": "Open Science Framework",
+        "year": "2016",
+        "type": "Conference paper",
+        "link": "https://engrxiv.org/v2gj9/"
+    },
+    {
+        "title": "Novel Method for Power Flow Optimization in Commercial Buildings",
+        "publisher": "IEEE CCECE",
+        "year": "2016",
+        "type": "Conference paper",
+        "link": "https://ieeexplore.ieee.org/document/7726733"
+    },
+    {
+        "title": "Residential Electric Load Disaggregation for Low-Frequency Utility Applications",
+        "publisher": "IEEE General Meetings",
+        "year": "2015",
+        "type": "Conference paper",
+        "link": "https://ieeexplore.ieee.org/document/7286502"
+    }
+]
